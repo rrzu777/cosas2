@@ -1,0 +1,108 @@
+.navbar-default {
+	background-color: #2574A9;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #333;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+	color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar {	
+	background-color: #fff;
+}
+
+/* -----------------------------------------
+   Typography
+------------------------------------------ */
+
+/* -----------------------------------------
+   Thumbnails
+------------------------------------------ */
+
+.col-sm-4 {
+	margin-top: 15px;
+}
+
+.panel-body p {
+	margin-top: 10px;
+}
+
+img.pull-left {
+	margin-right: 10px;
+}
+/* -----------------------------------------
+   Carousel
+------------------------------------------ */
+
+#carousel .item {
+	height: 400px;
+}
+
+#carousel {
+	margin-top: 60px;
+}
+
+#slide1 {
+	background: url('../img/carousel_large_01.jpg') top center no-repeat;
+}
+
+#slide2 {
+	background: url('../img/carousel_large_02.jpg') top center no-repeat;
+}
+
+#slide3 {
+	background: url('../img/carousel_large_03.jpg') top center no-repeat;
+}
+
+/* -----------------------------------------
+   Footer
+------------------------------------------ */
+
+footer {
+	padding: 20px;
+	background-color: #333;
+	color: white;
+	font-size: 11px;
+}
+
+
+/* -----------------------------------------
+   Media Queries
+------------------------------------------ */
+/* Landscape phone and portrait tablet */
+@media (max-width: 768px) {
+	#carousel .item {
+		height: 310px;
+	} 
+
+	#slide1 {
+		background: url('../img/carousel_small_01.jpg') top center no-repeat;
+	}
+
+	#slide2 {
+		background: url('../img/carousel_small_02.jpg') top center no-repeat;
+	}
+
+	#slide3 {
+		background: url('../img/carousel_small_03.jpg') top center no-repeat;
+	}
+}
+
+/* Large desktops */
+@media (min-width: 1200px) {
+	#carousel .item {
+		height: 500px;
+	}
+}
+

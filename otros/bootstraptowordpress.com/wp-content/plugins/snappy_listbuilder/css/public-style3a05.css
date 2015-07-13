@@ -1,0 +1,32 @@
+/* custom stylesheet for snappy_listbuilder plugin */
+
+.slb form {
+	display: block;
+	float: none;
+	overflow: hidden;
+	margin-bottom: 1em !important;
+}
+
+.slb .modal h4 {
+	color: #000 !important;
+}
+
+.slb .modal p {
+	color: #000 !important;
+	text-align: left;
+	font-size: 16px;
+	line-height: 120%;
+	padding: .5em 0 1em 0;
+	margin: 0 !important;
+}
+
+.slb .modal .modal-footer p,
+.slb .disclaimer {
+	font-size: 75% !important;
+}
+
+.slb form label.error {
+  font-weight: normal;
+  font-size: 10px;
+  color: #ff0000;
+}

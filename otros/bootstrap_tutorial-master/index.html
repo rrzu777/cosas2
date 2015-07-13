@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Simple page with Bootstrap 3</title>
+
+	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+            <div class="container" id="nav-container">
+                    
+                <div class="navbar-header">
+                        
+                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+                            
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+
+                    </button>
+
+                        <a href="index.html" class="navbar-brand">Brand</a>
+
+                </div><!--navbar-header-->
+
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+
+
+                        <ul class="nav navbar-nav" id="item-menu">
+                            
+                            <li><a href="#">Item1</a></li>
+                            <li><a href="#">Item2</a></li>
+                            <li><a href="#">Item3</a></li>
+
+                        </ul><!--nav navbar-nav-->
+                        
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                            <li class="dropdown">
+                                
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Account<span class="caret"></span></a>
+
+                                <ul class="dropdown-menu" role="menu">
+                                    
+                                    <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Edit Profile</a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Messages</a></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-question-sign"></span> Help</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign out</a></li>
+
+                                </ul><!--dropdown-menu-->
+
+                            </li><!--dropdown-->
+
+                        </ul><!--nav navbar-nav-->
+
+                        <form class="navbar-form navbar-right" role="form" style="">
+
+                            <div class="form-group">
+                                
+                                <input type="text" placeholder="Search" class="form-control">
+
+                                <button class="btn btn-primary"><span class="glyphicon glyphicon-search"></span></button>
+
+                            </div><!--form-group-->
+
+                        </form>
+
+                    </div><!--collapse navbar-collapse-->
+
+            </div><!--container#nav-container-->
+
+        </div><!--navbar navbar-fixed-top-->
+
+        <div class="container">
+
+            <div class="row" id="row-carousel">
+                
+                <div id="carousel" class="carousel slide" data-ride="carousel">
+
+                    <!--indicators-->
+                    <ol class="carousel-indicators">
+                        
+                        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel" data-slide-to="1"></li>
+                        <li data-target="#carousel" data-slide-to="2"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner">
+                        
+                        <div class="item active" id="slide1">
+                            
+                            <div class="carousel-caption">
+                                
+                                <h2>Slide1</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, excepturi.</p>
+
+                            </div><!--carousel-caption-->
+
+                        </div><!--item-->
+
+                        <div class="item" id="slide2">
+                            
+                            <div class="carousel-caption">
+                                
+                                <h2>Slide 2</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, excepturi.</p>
+
+                            </div><!--carousel-caption-->
+
+                        </div><!--item-->
+
+                        <div class="item" id="slide3">
+                            
+                            <div class="carousel-caption">
+                                
+                                <h2>Slide 3</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore, excepturi.</p>
+
+                            </div><!--carousel-caption-->
+
+                        </div><!--item-->
+
+                    </div><!--carousel-inner-->
+
+                    <!--controls-->
+
+                    <a href="#carousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+                    <a href="#carousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+
+                </div><!--#carousel-->
+
+            </div><!--row-->
+
+            <div class="row">
+                
+                <div class="col-12">
+                    <h2>Lorem Ipsum</h2>
+                    <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus iusto commodi qui neque sapiente enim temporibus, quasi eveniet, animi, fugit, corporis dignissimos. Numquam, sint, sit.</p>
+                </div>
+
+            </div><!--row-->
+
+            <div class="row" id="thumbnails">
+                
+                <h1>Example Thumbnails</h1>
+
+                <hr>
+
+                <div class="col-sm-4">
+                    
+                    <div class="panel panel-default">
+                        
+                        <div class="panel-heading">
+                            
+                            <h3 class="panel-title">Lorem Ipsum</h3>
+
+                        </div><!--panel-heading-->
+
+                        <div class="panel-body text-center">
+                            
+                            <img src="http://placehold.it/200x200" alt="img" class="img-circle">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique facilis et praesentium id dolore.</p>
+
+                            <button class="btn btn-success btn-block">Button</button>
+
+                        </div><!--panel-body-->
+
+                    </div><!--panel.panel-deafult-->
+
+                </div><!--col-sm-4-->
+                <div class="col-sm-4">
+                    
+                    <div class="panel panel-default">
+                        
+                        <div class="panel-heading">
+                            
+                            <h3 class="panel-title">Lorem Ipsum</h3>
+
+                        </div><!--panel-heading-->
+
+                        <div class="panel-body text-center">
+                            
+                            <img src="http://placehold.it/200x200" alt="img" class="img-circle">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique facilis et praesentium id dolore.</p>
+
+                            <button class="btn btn-success btn-block">Button</button>
+
+                        </div><!--panel-body-->
+
+                    </div><!--panel.panel-deafult-->
+
+                </div><!--col-sm-4-->
+
+                <div class="col-sm-4">
+                    
+                    <div class="panel panel-default">
+                        
+                        <div class="panel-heading">
+                            
+                            <h3 class="panel-title">Lorem Ipsum</h3>
+
+                        </div><!--panel-heading-->
+
+                        <div class="panel-body text-center">
+                            
+                            <img src="http://placehold.it/200x200" alt="img" class="img-circle">
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam similique facilis et praesentium id dolore.</p>
+
+                            <button class="btn btn-success btn-block">Button</button>
+
+                        </div><!--panel-body-->
+
+                    </div><!--panel.panel-deafult-->
+
+                </div><!--col-sm-4-->
+
+            </div><!--row#thumbnails-->
+
+            <div class="row" id="tabs">
+                
+                <div class="col-sm-6">
+
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+
+                    <div class="tabbable">
+                        
+                        <ul class="nav nav-pills">
+                            
+                            <li class="active">
+                                <a href="#tab1" data-toggle="tab">Section1</a>
+                            </li>
+
+                            <li>
+                                <a href="#tab2" data-toggle="tab">Section2</a>
+                            </li>
+
+                        </ul>
+
+                        <div class="tab-content">
+                            
+                            <div class="tab-pane active" id="tab1">
+                                    
+                                <h5 class="lead"><span class="glyphicon glyphicon-map-marker"></span> Our location <small>Some smaller text</small></h5>
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11129.555153332281!2d15.7143708!3d45.7834382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765cc707119b29f%3A0xb0f45e4e50a919a1!2s10430%2C+Mala+Rakovica%2C+Croatia!5e0!3m2!1sen!2s!4v1406291715070" width="100%" height="200" frameborder="0" style="border:0"></iframe>
+                                
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni eius est voluptatum animi corporis, laboriosam sunt pariatur. At vitae iusto necessitatibus placeat sapiente, odio aperiam, eos veritatis numquam labore inventore!</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi ipsa earum aspernatur illum in suscipit iure facere! Consequuntur vero quod aperiam voluptatum. Doloribus recusandae iusto cum architecto nostrum voluptas eos!</p>
+
+
+                            </div><!--tab1-->
+
+                            <div class="tab-pane" id="tab2">
+                                
+                                <h4>Some h4 text</h4>
+
+                                <img src="http://placehold.it/140" alt="image" class="thumbnail pull-left">
+
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur delectus distinctio dolore sint aspernatur quis deleniti, magnam veritatis asperiores ipsum tempore earum. Voluptatum ut illum, nobis fugit unde expedita quasi.</p>
+                                <p>Obcaecati ut quasi aut aliquid nam quaerat illo iusto facilis, velit eius cumque aspernatur aliquam, distinctio corporis ab. Sequi nemo optio recusandae dolore a quo deserunt ex temporibus sapiente, debitis.</p>
+                                <p>Obcaecati ut quasi aut aliquid nam quaerat illo iusto facilis, velit eius cumque aspernatur aliquam, distinctio corporis ab. Sequi nemo optio recusandae dolore a quo deserunt ex temporibus sapiente, debitis.</p>
+    
+                            </div><!--tab-pane#tab2-->
+
+                        </div><!--tab-content-->
+
+                    </div><!--tabbable-->
+
+                </div><!--col-sm-6-->
+
+                <div class="col-sm-6">
+                    
+                    <div class="list-group">
+
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Lorem ipsum dolor sit amet.</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut unde nam quisquam eveniet obcaecati!</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Lorem ipsum dolor sit amet.</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut unde nam quisquam eveniet obcaecati!</p>
+                        </a>
+                        <a href="#" class="list-group-item">
+                            <h4 class="list-group-item-heading">Lorem ipsum dolor sit amet.</h4>
+                            <p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur aut unde nam quisquam eveniet obcaecati!</p>
+                        </a>
+
+                    </div><!--list-group-->
+
+                     <div class="panel panel-default">
+                        
+                        <div class="panel-heading">
+
+                        Panel heading
+
+                        </div><!--panel-heading-->
+                                
+                        <div class="panel-body">
+                                
+                            <p>Here comes the table!</p>
+
+                        </div><!--panel-body-->
+
+                        <table class="table">
+                            
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Username</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Pero</td>
+                                    <td>Peric</td>
+                                    <td>@pero</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Ivo</td>
+                                    <td>Ivic</td>
+                                    <td>@ivo</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Joza</td>
+                                    <td>Jozek</td>
+                                    <td>@joza</td>
+                                </tr>
+                            </tbody>
+
+                        </table>
+
+                    </div><!--panel panel-default-->
+
+                </div><!--col-sm-6-->
+
+            </div><!--row-thumbnails-->
+        </div><!--container-->
+
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                   
+                   <div class="col-sm-2">
+                       
+                       <h6>Copyright &copy; 2014 <a href="http://github.com/Tonkec" target="_blank">Tonkec Palonkec </a></h6>
+
+                   </div><!--col-sm-2-->
+
+                   <div class="col-sm-4">
+                       
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus delectus, asperiores sunt officia libero ipsam culpa nemo sit facilis autem minima ex eaque dolor dolores. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui cum, eos laboriosam illo. Vero libero a ducimus delectus, perspiciatis voluptates, repudiandae minus vel minima fugit quis, explicabo ex dolorem doloremque.</p>
+
+                   </div>
+
+                   <div class="col-sm-2">
+
+                        <h6>Navigation</h6>    
+                        <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Item1</a></li>
+                            <li><a href="#">Item2</a></li>
+                            <li><a href="#">Item3</a></li>
+                        </ul>
+
+                   </div>
+
+                   <div class="col-sm-2">
+                       
+                        <h6>Follow Us</h6>
+                        <ul class="list-unstyled">
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                                <li><a href="#">Google+</a></li>
+                        </ul>
+
+                   </div>
+
+                   <div class="col-sm-2">
+                       
+
+                       <h6>Coded with <span class="glyphicon glyphicon-heart"></span> by <a href="http://github.com/Tonkec" target="_blank">Tonkec Palonkec </a></h6>
+                   </div>
+
+                </div><!--row-->
+            </div><!--container-->
+
+        </footer>
+	
+
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/javascript.js"></script>
+</body>
+</html>
