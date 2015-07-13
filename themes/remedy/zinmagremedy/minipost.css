@@ -1,0 +1,70 @@
+
+.minipost {
+	width: 336px;
+	float:left;
+	margin: 0px 0px 5px 5px;
+	padding:3px 0 0 0;
+	background:#2e3335;
+	border:1px solid #272b2d;
+	display:inline;
+	color:#222;
+	font-family:century gothic,Arial,verdana, sans-serif;
+	}
+
+.minipost h2{
+	margin: 0px 0 0px 0;
+	padding: 0px 0px 3px 0px;
+	text-align: left;
+	font-size: 20px;
+	overflow:hidden;
+	height:20px;
+}
+.minipost h2 a:link, .minipost h2 a:visited{
+	color:#c5c5c5;
+}
+.hentry {
+	height:145px;
+	padding:0px 5px 2px 5px;
+	overflow:hidden;
+}
+.hentry p{
+	margin:5px 5px;
+	color:#6b7478;
+
+}
+
+
+.hentry img {
+	border:0;
+	float:left;
+	padding:4px 4px;
+	background:#1e1f20;
+	border:1px solid #393f42;
+	margin:2px 5px 5px 0px;
+	}
+.meta{
+	color:#226b91;
+	height:21px;
+	text-align:right;
+	padding:2px 10px 0 0;
+	background:#292d2f ;
+	border-top:1px solid #272b2d;
+		
+}
+
+.cat{
+	float:left;
+	font-size:13px;
+	color:#226b91;
+	padding: 0 0 0 10px;
+}
+
+
+.cat a:link,.cat a:visited{
+	color:#235B76;
+
+	}
+.cat a:hover{
+	color:#2E9FD7;
+
+	}

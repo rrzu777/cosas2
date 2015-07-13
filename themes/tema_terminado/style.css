@@ -1,0 +1,250 @@
+/*
+Theme Name: Mitema
+Theme URI: http://www.urldemitema.com
+Description: Mi primer tema de WP.
+Author: Nombre del creador
+Author URI: http://www.urldelautordeltema.com
+Version: 1.0
+*/
+
+/******* RESET  *******/
+h1, h2, h3, h4, html, header, nav, body, p{
+	margin: 0px;
+	padding: 0px;
+}
+
+/****** Secciones generales ******/
+html {
+	padding-top: 20px;
+}
+body  {
+	background-color:#BBD0AC;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #2C2C2C;
+	font-weight: normal;
+	}
+a { /* links generales */
+	text-decoration: none;
+	color: #02B3B6;
+}
+a:hover { /* rollover de links generales */
+	text-decoration: underline;	
+}
+.wrapper{
+	width:977px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFF;
+	box-shadow: 0px 0px 5px #666;
+}
+header {
+	height:88px;
+	padding-top: 41px;
+	padding-right: 31px;
+	padding-left: 31px;
+}
+nav { /* menu de navegacion */
+	background-color: #2C2C2C;
+	height: 45px;
+	color: #999999;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #02B3B6;
+	margin-right: 31px;
+	margin-left: 31px;
+}
+
+
+#cuerpo { /* contenedor del #main y #sidebar */
+	padding-top: 0px;
+	padding-right: 31px;
+	padding-left: 31px;
+}
+
+#main { /* wrapper articulos */
+	float:left;
+	width:65%;
+	font-size: 14px;
+}
+article {
+	padding-top: 10px;
+	padding-bottom: 20px;
+	clear: both;
+}
+
+#sidebar{ /* barra lateral */
+	float:right;
+	width:30%;
+}
+footer {
+	clear:both;
+	color: #FFF;
+	background-color: #333333;
+	height: 32px;
+	padding-top: 22px;
+	padding-right: 31px;
+	padding-left: 31px;
+	font-size: 13px;
+}
+.tituloBlog { /* tutolo del Blog */
+	font-size: 30px;
+	text-decoration: none;
+	color: #2c2c2c;
+}
+.descripcion { /* descripcion del Blog */
+	font-size: 15px;
+	color: #999999;
+}
+.alignleft {
+	float: left;
+}
+
+
+/****** Entradas ******/
+
+.tituloEntrada a { /* titulo entrada */
+	font-size: 21px;
+	color: #000000;
+	text-decoration: none;
+
+}
+article img { /* imagen de la entrada */
+	padding-right: 20px;
+}
+article p{ /* texto de articulos */
+	font-size: 14px;
+	color: #666666;
+}
+#main small { /* datos del post (fecha, etc etc) */
+	font-size: 11px;
+	color: #999999;
+	display: block;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	}
+#main small a { /* links de datos del post */
+	color: #01B2B6;
+	text-decoration: none;
+	}
+.pagination { /* estilos generales de la seccion pagination */
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #666;
+	text-align: center;
+	}
+.pagination .current { /* numero de pagina actual */
+	color: #FFF;
+	background-color: #02B3B6;
+	padding-right: 3px;
+	padding-left: 3px;
+	}
+.pagination .inactive { /* numero de pagina que no es la actual */
+	padding-right: 3px;
+	padding-left: 3px;
+	color: #333;
+	text-decoration: none;
+	}
+.pagination .inactive:hover {
+	color: #FFF;
+	background-color: #333;	
+	}
+.entry-thumb { /* imagenes miniaturas de posts, en el Home */
+}
+.leermas { /* link leer mas en los post del home */
+	color: #02B3B6;
+	text-decoration: none;
+}
+.post { /* contenidos del articulo en pagina individual */
+	padding-bottom: 20px;
+	clear: both;
+}
+.comentarios { /* zona de comentarios de post individual */
+	font-size: 14px;
+	clear: both;
+}
+.comentarios a { /* links en zona de comentarios de post individual */
+	color: #02B3B6;
+}
+.comentarios h2 {
+	font-size: 16px;
+}
+
+/****** Sidebar ******/
+aside {/* sidebar general */
+	font-size: 14px;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	}
+aside a {/* links del sidebar */
+	text-decoration: none;
+	color: #666666;
+	}
+aside a:hover {/* links del sidebar */	
+	color: #02B3B6;
+}
+aside hr { /* elimina linea horizontal */
+	display:none;
+}
+#sidebar h3 { /* Titulos Sidebar */
+	padding-bottom: 10px;
+}
+#sidebar ul { /* listas del sidebar */
+	list-style-type: none;
+	margin: 0px;
+	padding-top:0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+}
+#sidebar ul li { /* items de la lista */
+	padding-bottom: 5px;
+}
+#sidebar ul li a {}
+
+
+/* Menu nav */
+nav {}
+nav ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+nav ul li {
+	display: inline;
+	padding-top: 12px;
+	padding-right: 26px;
+	padding-left: 26px;
+	height: 33px;
+	float: left;
+
+}
+nav ul li a {
+	text-decoration: none;
+	color: #999999;
+}
+nav .current_page_item { /* clase para la página actual */
+	color: #FFF;
+	background-color: #02B3B6;
+} 
+nav .page_item a { /*  clase para cualquier otro link del menú */
+	color: #999999;		
+}
+nav .page_item a:hover { /*  clase para roll over cualquier otro link del menú sin menu definido */
+	color: #FFF;
+}
+nav .menu-item a:hover { /*  clase para roll over cualquier otro link del menú con menu definido */
+	color: #FFF;
+	text-decoration: none;
+}
+nav .current_page_item a {
+	color: #FFF;
+}
+
+/* Pagina de Archivos */
+#single header{
+	height: 40px;
+}
+.archive-header {
+	padding: 0px;
+}

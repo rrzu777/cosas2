@@ -1,0 +1,21 @@
+/*
+ Theme Name:   GordoCaminante
+ Theme URI:    http://http://caminaportusalud.zz.mu/
+ Description:  Tema para caminadores
+ Author:       Roberto Zamora
+ Author URI:   http://http://caminaportusalud.zz.mu/
+ Template:     twentyfifteen
+ Version:      0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  caminatema
+*/
+@import url("../twentyfifteen/style.css");
+body{
+background-color: orange;	
+
+}
+.entry-title {
+	color:lightblue;
+}

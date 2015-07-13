@@ -1,0 +1,62 @@
+/* 
+Theme Name: WPBootstrap3
+Theme URI: http://digital-photo-web.com
+Description: Responsive WordPress Theme using Bootstrap 3
+Version: 1
+Author: Thrandur Arnthorsson
+Author URI: http://digital-photo-web.com
+*/
+
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
+@import url("css/lavish-bootstrap.css");
+
+.logo {
+  margin-top: -14px;
+}
+.marketing {
+  background: #2f2b27;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  font-size: 140px;
+  color: #876e3a;
+  text-align: center;
+  padding-top: 30px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+img.logo {
+	width: auto; 
+	height: 50px;
+}
+.thumbnail img:hover {
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+.thumbnail img {
+  transition: all 0.3s ease;
+  width: 100%;
+}
+/* Carousel base class */
+.carousel {
+  max-height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  background-color: #000;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+  width: auto;
+  height: 500px;
+}
+

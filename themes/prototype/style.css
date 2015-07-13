@@ -1,0 +1,37 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css");
+@import url("css/lavish-bootstrap.css");
+
+body {
+	margin-top: 70px;
+}
+.navbar-brand {
+  margin-top: -14px;
+}
+.marketing {
+  background: #2f2b27;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  font-size: 140px;
+  color: #876e3a;
+  text-align: center;
+  padding-top: 30px;
+}
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  max-height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  max-height: 500px;
+  background-color: #777;
+}

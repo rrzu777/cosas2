@@ -1,0 +1,47 @@
+/* 
+Theme name: Plaiiitzi
+Theme URI: http://sport.es
+Author: Roberto Zamora
+Author Uri: http://as.com
+Description: Este es el mejor tema 
+Version: 1.0
+*/
+.container > p{
+	margin-top: 50px;
+
+}
+
+.current-menu-item a{
+	background-color: white;
+}
+
+.widget {
+	margin-top: 50px;
+	font-size: 16px;
+	font-weight: bold;
+
+
+}
+.widget li{
+	padding:0.5em;
+
+}
+.widget a{
+		color:#3C8500;
+}
+.portada .badge{
+	background-color: black;
+	color:#EEEEEE;
+	border-radius: 2%;
+
+}
+.badge {
+	font-size: 1.2em;
+}
+
+.slide {
+	height: auto;
+}
+.hola {
+	height: 400px;
+}

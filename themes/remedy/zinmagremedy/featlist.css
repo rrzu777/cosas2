@@ -1,0 +1,102 @@
+.featlist {
+	width:300px;
+	}
+.highlight{
+	margin-top:4px;
+	height:30px;
+	background:#232628 url(images/hreel.jpg) no-repeat;
+	border:1px solid #404548;
+}	
+.fblock h2{
+	margin: 0px 0 0px 0;
+	padding: 0px 0px 3px 0px;
+	text-align: left;
+	font-size: 16px;
+	overflow:hidden;
+	height:16px;
+}
+.fblock h2 a:link, .fblock h2 a:visited{
+	color:#fff;
+}
+.fblock {
+	
+	width: 298px;
+	float:left;
+	margin: 5px 0px 0px 0px;
+	padding:0px 0 0 0;
+	background:#2e3335;
+	border:1px solid #404548;
+	display:inline;
+	color:#222;
+	font-family:century gothic,Arial,verdana, sans-serif;
+}
+
+.fblock:hover {
+	
+	width: 298px;
+	float:left;
+	margin: 5px 0px 0px 0px;
+	padding:0px 0 0 0;
+	background:#232628;
+	border:1px solid #404548;
+	display:inline;
+	color:#222;
+	font-family:century gothic,Arial,verdana, sans-serif;
+}
+
+.fblock p{
+	margin:5px 5px;
+	color:#6b7478;
+}
+
+
+.fblock img {
+	float:left;
+	border:1px solid #393F42;
+	margin:5px 5px 5px 5px;
+	padding:0 0;
+	}
+	
+.fcats{
+	overflow:hidden;
+	font-size:12px;
+	color:#DAD0C1;
+	padding: 0 0 0 0px;
+	margin:1px 0 0px 0;
+	height:15px;
+}
+.fcats a:link,.fcats a:visited {
+	overflow:hidden;
+	font-size:12px;
+	color:#83A1AF;
+	padding: 0 0 0 0px;
+	margin:0px 0 0px 0;
+	height:13px;
+}	
+.auth{
+	overflow:hidden;
+	font-size:12px;
+	color:#DAD0C1;
+	padding: 0 0 0 0px;
+	margin:0px 0 0px 0;
+}	
+
+.fmeta{
+	overflow:hidden;
+	font-size:12px;
+	color:#DAD0C1;
+	padding: 0 0 0 0px;
+	margin:0px 0 0px 0;
+	
+		
+}
+
+.fmeta a:link,.fmeta a:visited{
+	overflow:hidden;
+	font-size:12px;
+	color:#83A1AF;
+	padding: 0 0 0 0px;
+	margin:0px 0 0px 0;
+	
+		
+}

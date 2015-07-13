@@ -1,0 +1,123 @@
+/*
+Theme Name: Mitema
+Theme URI: http://www.urldemitema.com
+Description: Mi primer tema de WP.
+Author: Nombre del creador
+Author URI: http://www.urldelautordeltema.com
+Version: 1.0
+*/
+
+/******* RESET  *******/
+h1, h2, h3, h4, html, header, nav, body, p{
+	margin: 0px;
+	padding: 0px;
+}
+
+/****** Secciones generales ******/
+html {
+}
+body  {
+}
+a { /* links generales */
+}
+a:hover { /* rollover de links generales */
+}
+.wrapper{
+}
+header {
+}
+nav { /* menu de navegacion */ 
+}
+#cuerpo { /* contenedor del #main y #sidebar */
+}
+#main { /* wrapper articulos */
+}
+article {
+}
+#sidebar{ /* barra lateral */
+}
+footer {
+}
+.tituloBlog { /* tutolo del Blog */
+}
+.descripcion { /* descripcion del Blog */
+}
+.alignleft {
+}
+
+/****** Entradas ******/
+
+.tituloEntrada a { /* titulo entrada */
+}
+article img { /* imagen de la entrada */
+}
+article p{ /* texto de articulos */
+}
+#main small { /* datos del post (fecha, etc etc) */	
+}
+#main small a { /* links de datos del post */	
+}
+.pagination { /* estilos generales de la seccion pagination */
+}
+.pagination .current { /* numero de pagina actual */
+}
+.pagination .inactive { /* numero de pagina que no es la actual */
+}
+.pagination .inactive:hover {
+}
+.entry-thumb { /* imagenes miniaturas de posts, en el Home */
+}
+.leermas { /* link leer mas en los post del home */
+}
+.post { /* contenidos del articulo en pagina individual */
+}
+.comentarios { /* zona de comentarios de post individual */
+}
+.comentarios a { /* links en zona de comentarios de post individual */
+}
+.comentarios h2 {
+}
+
+/****** Sidebar ******/
+aside {/* sidebar general */
+}
+aside a {/* links del sidebar */
+}
+aside a:hover {/* links del sidebar */	
+}
+aside hr { /* elimina linea horizontal */
+}
+#sidebar h3 { /* Titulos Sidebar */
+}
+#sidebar ul { /* listas del sidebar */
+}
+#sidebar ul li { /* items de la lista */
+}
+#sidebar ul li a {}
+
+
+/* Menu nav */
+nav {
+}
+nav ul {
+}
+nav ul li {
+}
+nav ul li a {
+}
+nav .current_page_item { /* clase para la página actual */
+} 
+nav .page_item a { /*  clase para cualquier otro link del menú */	
+}
+nav .page_item a:hover { /*  clase para roll over cualquier otro link del menú sin menu definido */
+}
+nav .menu-item a:hover { /*  clase para roll over cualquier otro link del menú con menu definido */
+}
+nav .current_page_item a {
+}
+
+/* Pagina de Archivos */
+#single header{
+}
+.archive-header {
+}

@@ -1,0 +1,44 @@
+	
+.banner{
+	margin: 0px 0 0 0;
+	padding: 0px 0 0 0px;
+	width:298px;
+	border-left:1px solid #404548;
+	border-right:1px solid #404548;
+	border-bottom:1px solid #404548;
+	background:#2c2f31;
+	float:left;
+
+}
+.bannerhead{
+	margin: 5px 0 0 0;
+	padding: 0px 0 0 0px;
+	width:298px;
+	height:30px;
+	background: #222627 url(images/sponhead.jpg) no-repeat;
+	border-left:1px solid #404548;
+	border-right:1px solid #404548;
+	border-top:1px solid #404548;
+}
+.banner ul {
+   	 margin: 0px 0px;
+	 padding: 0px 0px;
+	 overflow: auto;
+	 
+}
+	 
+.banner li{
+	height:125px;
+	width:125px;
+	margin: 6px 6px ;
+	padding:5px 5px;
+	list-style:none;
+	display : block;
+	display:inline;
+	float:right;
+	background:#393f42;
+}
+
+.banner li a:link, .banner li a:visited {
+	text-decoration: none;
+}	
